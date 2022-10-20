@@ -10,8 +10,11 @@ class  Calculator():
     return self.number * self.number*self.number
   def squareroot(self):
     return math.sqrt(self.number)
+  def greet(self):
+    return 'hello Arun'
     
 two = Calculator(2)
+print(two.greet())
 print(two.number)
 print(two.square())
 print(two.cube())
